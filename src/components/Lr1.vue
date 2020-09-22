@@ -22,7 +22,7 @@
             step="1">
       </label>
     </div>
-    <div>
+    <div v-if="false">
       <label v-for="(coord, index) in Object.keys(cameraPosition)" :key="coord+index">
         Camera {{ coord }}
         <input
