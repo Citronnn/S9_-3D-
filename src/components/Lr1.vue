@@ -96,8 +96,13 @@ import { fragmentShader } from '@/shaders/fragmentShader'
 export default {
   name: 'Lr1',
   components: {
-    VglRenderer, VglTextGeometry, VglShaderMaterial,
-    VglScene, VglPerspectiveCamera, VglMesh, VglTorusGeometry
+    VglRenderer,
+    VglTextGeometry,
+    VglShaderMaterial,
+    VglScene,
+    VglPerspectiveCamera,
+    VglMesh,
+    VglTorusGeometry
   },
   data() {
     return {
