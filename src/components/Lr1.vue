@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <b-container >
     <div>
       <label v-for="(offset, index) in Object.keys(uniforms).filter(key => key.includes('offset'))" :key="offset+index">
         {{ offset }}
@@ -83,7 +83,7 @@
             name="mainCamera"/>
       </vgl-renderer>
     </div>
-  </div>
+  </b-container>
 </template>
 
 <script>
@@ -141,7 +141,7 @@ export default {
 
 <style scoped>
 .mainRenderer {
-  height: 80vh;
-  width: 100vw;
+  height: 70vh;
+  width: 100%;
 }
 </style>
