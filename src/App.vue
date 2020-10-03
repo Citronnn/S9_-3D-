@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Lr1/>
+    <NavBar />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Lr1 from './components/Lr1.vue'
-
+import NavBar from '@/components/NavBar'
 export default {
   name: 'App',
   components: {
-    Lr1
+    NavBar
   }
 }
 </script>
