@@ -10,7 +10,7 @@
                   name="mat"
                   :color="`rgb(${uniforms.redColor.value}, ${uniforms.greenColor.value}, ${uniforms.blueColor.value})`"
                   :specular="`rgb(200, 100, 50)`"
-                  :shininess="80"
+                  shininess="80"
               />
               <vgl-mesh-standard-material
                   name="std"
