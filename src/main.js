@@ -7,6 +7,7 @@ import Router from 'vue-router'
 import Lr1 from '@/components/Lr1'
 import Lr2 from '@/components/Lr2'
 import Lr3 from '@/components/Lr3'
+import Lr4 from '@/components/Lr4'
 
 Vue.use(BootstrapVue)
 Vue.use(Router)
@@ -16,7 +17,8 @@ const routes = [
   { path: '/lr1', component: Lr1 },
   { path: '/lr2', component: Lr2 },
   { path: '/lr3', component: Lr3 },
-  { path: '/', component: Lr3 }
+  { path: '/lr4', component: Lr4 },
+  { path: '/', component: Lr4 }
 ]
 
 const router = new Router({
